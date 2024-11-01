@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Syntax Highlighting\n"
+"POT-Creation-Date: 2017-04-25 10:49+0200\n"
+"PO-Revision-Date: 2017-04-25 10:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: Steeve Lefebvre\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: plugin/admin/form.php:18
+msgid "Settings saved"
+msgstr "Réglages enregistrés"
+
+#: plugin/admin/form.php:29 plugin/admin/form.php:43
+msgid "About"
+msgstr "A propos"
+
+#: plugin/admin/form.php:44
+msgid "By"
+msgstr "Par"
+
+#: plugin/admin/form.php:45
+msgid "More information"
+msgstr "Plus d'informations"
+
+#: plugin/admin/form.php:46
+msgid "Development for the web"
+msgstr "Développement pour le web"
+
+#: plugin/admin/form.php:47
+msgid "Support"
+msgstr "Support"
+
+#: plugin/admin/form.php:48
+msgid "Ask your question"
+msgstr "Posez votre question"
+
+#: plugin/admin/form.php:57
+msgid "Your message has been sent !"
+msgstr "Votre message est envoyé !"
+
+#: plugin/admin/form.php:59
+msgid "Something went wrong, go back and try again !"
+msgstr "Quelque chose n’allait pas, revenez en arrière et essayez de nouveau !"
+
+#: plugin/admin/form.php:65
+msgid "Your name"
+msgstr "Votre nom"
+
+#: plugin/admin/form.php:68
+msgid "Your Email Address"
+msgstr "Votre Adresse Mail"
+
+#: plugin/admin/form.php:71
+msgid "Formulate your support request or feature proposal here..."
+msgstr ""
+"Formuler ici votre demande de support ou votre proposition de nouvelle  "
+"fonctionnalité..."
+
+#: plugin/admin/form.php:74
+msgid "Send"
+msgstr "Envoyer"
+
+#: plugin/admin/metabox.php:38
+msgid "Syntax Hightlighting"
+msgstr "Coloration syntaxique"
+
+#: plugin/admin/metabox.php:50
+msgid "Off"
+msgstr "Off"
+
+#: plugin/admin/metabox.php:51
+msgid "On"
+msgstr "On"
+
+#: plugin/admin/page.php:70
+msgid "General"
+msgstr "Général"
+
+#: plugin/admin/page.php:75
+msgid "Post types"
+msgstr "Post types"
+
+#: plugin/admin/page.php:83
+msgid "Default color"
+msgstr "Default color"
+
+#: plugin/admin/page.php:91 plugin/admin/panel.php:91
+msgid "Deactivation"
+msgstr "Désactivation"
+
+#: plugin/admin/page.php:96 plugin/admin/panel.php:96
+msgid "Delete options"
+msgstr "Supprimer les options"
+
+#: plugin/admin/page.php:108 plugin/admin/panel.php:108
+msgid "Group"
+msgstr "Groupe"
+
+#: plugin/admin/page.php:112 plugin/admin/panel.php:112
+msgid "Plugin Group"
+msgstr "Groupe du plugin"
+
+#: plugin/admin/page.php:129 plugin/admin/panel.php:129
+msgid "This section concerns the configuration of the plugin"
+msgstr "Cette partie concerne la configuration du plugin"
+
+#: plugin/admin/page.php:136 plugin/admin/panel.php:136
+msgid "This section is about saving plugin options of"
+msgstr "Cette section concerne l'enregistrement des options"
+
+#: plugin/admin/page.php:142
+msgid "Add the different post types here."
+msgstr "Ajoutez ici les différents post types."
+
+#: plugin/admin/page.php:224 plugin/admin/panel.php:148
+msgid "Delete plugin options when disabling."
+msgstr "Supprimer les options du plugin lors de sa désactivation."
+
+#: plugin/admin/page.php:232 plugin/admin/panel.php:156
+msgid "This section concerns the Grouper plugin group of"
+msgstr "Cette section concerne le groupe de plugin de"
+
+#: plugin/admin/page.php:238 plugin/admin/panel.php:162
+msgid "Specify here the Grouper group to attach"
+msgstr "Spécifiez ici le groupe Grouper auquel attacher"
+
+#: plugin/admin/page.php:239 plugin/admin/panel.php:163
+msgid ""
+"WARNING :: changing the value of this field amounts to modifying the name of "
+"the parent link in the WordPress admin menu !"
+msgstr ""
+"AVERTISSEMENT :: Modifier cette  valeur revient à modifier le nom du lien "
+"parent dans le menu d’admin de WordPress !"
+
+#: plugin/admin/page.php:240 plugin/admin/panel.php:164
+msgid ""
+"You can use this option to isolate this plugin or to add this plugin to an "
+"existing Grouper group."
+msgstr ""
+"Vous pouvez utiliser cette option pour isoler ce plugin ou bien ajouter ce "
+"plugin pour un group GRP déjà existant."
+
+#: plugin/admin/page.php:244 plugin/admin/panel.php:168
+msgid "is compatible with Grouper"
+msgstr "est compatible avec Grouper"
+
+#: plugin/admin/page.php:246 plugin/admin/panel.php:170
+msgid "is installed but does not appear to be enabled"
+msgstr "est installé, mais ne semble pas être activé"
+
+#: plugin/admin/page.php:247 plugin/admin/panel.php:171
+msgid "you can activate"
+msgstr "vous pouvez l'activer"
+
+#: plugin/admin/page.php:249 plugin/admin/panel.php:173
+msgid "more information here"
+msgstr "plus d’informations ici"
+
+#: plugin/admin/panel.php:86
+msgid "Options"
+msgstr "Options"
+
+#: plugin/admin/panel.php:120
+msgid "Grouper"
+msgstr "Grouper"
+
+#: plugin/widget.php:141
+msgid "credit"
+msgstr "crédit"
+
+#: plugin/widget.php:173
+msgid "Syntax highlighting"
+msgstr "Coloration syntaxique"
+
+#: syntax-highlighting.php:21
+msgid ""
+"Syntax Highlighting allows you to add syntax highlighting to the snippets "
+"contained in your posts."
+msgstr ""
+"Syntax Highlighting vous permet d'ajouter la mise en surbrillance de syntaxe "
+"aux extraits contenus dans vos publications."
+
+#: syntax-highlighting.php:82
+msgid "Page"
+msgstr "Page"
+
+#: syntax-highlighting.php:83
+msgid "Settings"
+msgstr "Réglages"
+
+#~ msgid "Hightlight Support"
+#~ msgstr "Support"

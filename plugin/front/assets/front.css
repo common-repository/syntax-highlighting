@@ -1,0 +1,13 @@
+
+.hilightDemo { 
+    margin-bottom: -40px; 
+}
+.hilightDemo pre { 
+    padding: 0; 
+    margin-bottom: 0; 
+}
+.hilightDemo pre code { 
+    padding: 0; 
+    text-indent: 5px;  
+    font-size: 14px; 
+}

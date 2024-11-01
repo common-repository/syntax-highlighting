@@ -1,0 +1,118 @@
+
+.syntax-highlighting-modal-link {
+    position: relative;
+    float: right;
+}
+
+.syntax-highlighting-modal {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 99999;
+    position: fixed;
+    pointer-events: none;
+    background: rgba(0,0,0,0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-transition: opacity 250ms ease-in;
+    -moz-transition: opacity 250ms ease-in;
+    transition: opacity 250ms ease-in;
+}
+
+.syntax-highlighting-modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.syntax-highlighting-modal > div {
+    width: 400px;
+    background: #fff;
+    margin: 7% auto;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 20px 13px 20px;
+    background: -o-linear-gradient(bottom, rgb(245,245,245) 25%, rgb(232,232,232) 63%);
+    background: -moz-linear-gradient(bottom, rgb(245,245,245) 25%, rgb(232,232,232) 63%);
+    background: -webkit-linear-gradient(bottom, rgb(245,245,245) 25%, rgb(232,232,232) 63%);
+}
+
+.syntax-highlighting-modal-close {
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.syntax-highlighting-modal-close:hover { color: #333; }
+
+#syntax-highlighting-contact input[type="text"],
+#syntax-highlighting-contact input[type="email"],
+#syntax-highlighting-contact input[type="url"],
+#syntax-highlighting-contact textarea,
+#syntax-highlighting-contact button[type="submit"] {
+    font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 6px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#syntax-highlighting-contact input[type="text"],
+#syntax-highlighting-contact input[type="email"],
+#syntax-highlighting-contact input[type="tel"],
+#syntax-highlighting-contact input[type="url"],
+#syntax-highlighting-contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#syntax-highlighting-contact input[type="text"]:hover,
+#syntax-highlighting-contact input[type="email"]:hover,
+#syntax-highlighting-contact input[type="tel"]:hover,
+#syntax-highlighting-contact input[type="url"]:hover,
+#syntax-highlighting-contact textarea:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+
+#syntax-highlighting-contact textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+    margin-bottom: 0px;
+}
+
+#syntax-highlighting-contact input:focus,
+#syntax-highlighting-contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+
+::-webkit-input-placeholder { color:#888; }
+:-moz-placeholder { color:#888; }
+::-moz-placeholder { color:#888; }
+:-ms-input-placeholder { color:#888; }
+
+
+.syntax-highlighting-contact-valide, .syntax-highlighting-contact-error{
+    padding: 8px;
+    background-color: white;
+}
+.syntax-highlighting-contact-valide{
+    border-left: 4px solid #46b450;
+}
+.syntax-highlighting-contact-error{
+    border-left: 4px solid #dc3232;
+}
